@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contentdiv{
+    width: 50%;
+    display: inline-block;
+    overflow: hidden;
+    height: 500px;
+    padding: 20px;
+}
+.imgContainer{
+    position: relative;
+}
+.imgContainer img{
+    width: 200px;
+    position: absolute;
+    transition-property: transform, width, outline-offset;
+    transition-duration: 1s;
+}
+.imgContainer img:nth-child(1){
+    left: 150px;
+    top:60px
+}
+.imgContainer img:nth-child(2){
+    left: 300px;
+    top:70px
+}
+.imgContainer img:nth-child(3){
+    left: 200px;
+    top:170px
+}
+.imgContainer img:hover{
+    outline: 10px solid lightgreen;
+    outline-offset: 10px;
+    width: 250px;
+    transform: translate(-25px,-25px);
+    z-index: 3;
+}
+
