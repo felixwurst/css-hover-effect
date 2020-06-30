@@ -1,2 +1,2 @@
 ## 1-CSS-hover-effect
-**Task:** Made a smooth hover effect for the images
+Made a smooth hover effect for the images
